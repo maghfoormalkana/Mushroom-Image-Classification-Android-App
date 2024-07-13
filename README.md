@@ -29,9 +29,6 @@ The dataset used for training the model is sourced from Kaggle. It contains imag
 ## Model
 The deep learning model used in FungAi is trained using TensorFlow and converted to TensorFlow Lite for seamless integration into the Android app. The model ensures efficient and accurate mushroom classification on-device.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
-
 ## Acknowledgements
 - Gratitude to my mentors and peers for their support throughout the development of this project.
 - Special thanks to the contributors of the Kaggle dataset used for model training.
