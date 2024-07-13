@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title"
+            android:padding="5dp"
+            android:textColor="#737373"/>
+
+        <!-- INPUT POST TITLE -->
+        <EditText
+            android:id="@+id/pTitleEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:hint="Enter title"
+            android:minHeight="60dp"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <!-- INPUT POST IMAGE -->
+        <ImageView
+            android:id="@+id/pImageIv"
+            android:src="@drawable/ic_add_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/maincard"
+            android:layout_marginTop="8dp"
+            android:minHeight="200dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Description"
+            android:padding="5dp"
+            android:textColor="#737373"/>
+        <!-- INPUT POST DESCRIPTION -->
+        <EditText
+            android:id="@+id/pDescriptionEt"
+            android:background="@drawable/editextstyle"
+            android:padding="10dp"
+            android:hint="Enter description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minHeight="120dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- PUBLISH BUTTON -->
+        <Button
+            android:id="@+id/pUploadBtn"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            android:text="UPLOAD POST"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

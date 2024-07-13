@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/avatarIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_default_img"/>
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_toRightOf="@id/avatarIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maghfoor"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/commentTv"
+            android:layout_below="@id/nameTv"
+            android:layout_toEndOf="@id/avatarIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is actual comment"
+            android:layout_toRightOf="@id/avatarIv"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:text="08/01/2000"
+            android:textSize="10sp"
+            android:layout_below="@id/commentTv"
+            android:layout_toEndOf="@id/avatarIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/avatarIv"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

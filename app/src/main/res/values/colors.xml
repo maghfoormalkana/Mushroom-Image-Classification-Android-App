@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#FFFF9800</color>
+    <color name="warning">#BF2D1D</color>
+    <color name="maincard">#F2F2F2</color>
+    <color name="maincard_night">#685420</color>
+
+    <color name="btn1">#F3F38C</color>
+    <color name="btn2">#FFA944</color>
+    <color name="samplebtn">#B1FFB1</color>
+
+    <color name="colorPrimaryDark">#D88100</color>
+    <color name="colorPrimary">#FFFF9800</color>
+
+    <!-- EDIBLE COLORS -->
+    <color name="edibleColor">#328A35</color>
+    <color name="conditionallyEdibleColor">#0088FF</color>
+    <color name="poisonousColor">#A605C3</color>
+    <color name="deadyColor">#CA1818</color>
+</resources>

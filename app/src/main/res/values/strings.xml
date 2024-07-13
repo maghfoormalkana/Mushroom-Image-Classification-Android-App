@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FungAi</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="sign_up_text">Sign Up</string>
+
+    <string name="maincardtitle">Mushroom Image Identification</string>
+    <string name="maincardtext">Identify Mushroom by using the image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- ONBOARDING SCREEN TEXT
+    <string name="title1">Welcome to FungAi!</string>
+    <string name="body1">Dive into the fascinating world of fungi with FungAi. Our app empowers you to identify mushrooms with confidence using cutting-edge technology.</string>
+
+    <string name="title2">Identify Mushrooms with Ease!</string>
+    <string name="body2">Forget the guesswork! FungAi makes mushroom identification simple and accurate. Upload a picture, and get instant results with informative details.</string>
+
+    <string name="title3">For Informational Purposes Only</string>
+    <string name="body3">Safety first! FungAi is designed to be a fun and informative tool to help you learn about the mushroom kingdom. It is important to remember that this app cannot definitively identify mushrooms for consumption. Always consult with a professional mycologist before ingesting any wild mushrooms.</string>
+-->
+</resources>
+

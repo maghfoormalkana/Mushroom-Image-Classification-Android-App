@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994011916788",
+    "project_id": "fungai-48f43",
+    "storage_bucket": "fungai-48f43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994011916788:android:4566e72906c7d1dbd3f1a1",
+        "android_client_info": {
+          "package_name": "com.maghfoormalkana.fungai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wN8sqOwjhbK5gAsgKXZ05WjRvhjcm1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
