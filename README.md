@@ -1,8 +1,8 @@
 # FungAi - Mushroom Image Classification Android App
+![Purple and Pink Gradient Modern Bold Mobile App Presentation (1)](https://github.com/user-attachments/assets/1a852073-8f9b-41b5-a674-14d1f48f988a)
 
 ## Overview
 FungAi is an Android application designed to classify mushroom species based on images. Developed as a final year project, this app leverages a machine learning model trained on a dataset sourced from Kaggle to provide accurate mushroom identification. The app outputs the mushroom name, provides a Wikipedia button for additional information, and indicates the edibility status (edible, non-edible, poisonous). Additionally, FungAi includes a community feed feature, allowing mushroom enthusiasts to post images and comments.
-![Purple and Pink Gradient Modern Bold Mobile App Presentation (1)](https://github.com/user-attachments/assets/1a852073-8f9b-41b5-a674-14d1f48f988a)
 
 ## Features
 - **Mushroom Identification**: Classify mushroom species from captured images.
