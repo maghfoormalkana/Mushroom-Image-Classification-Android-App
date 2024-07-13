@@ -10,6 +10,12 @@ FungAi is an Android application designed to classify mushroom species based on 
 - **Community Feed**: Share and comment on mushroom images with a community of enthusiasts.
 - **User-Friendly Interface**: Intuitive and easy-to-navigate UI designed for all users.
 
+## Screenshots
+![Main Activity](https://github.com/user-attachments/assets/1bc5815a-37d6-434c-b3fc-463cba0fcb02)  ![Sign In](https://github.com/user-attachments/assets/9845aeb0-4110-48fc-9937-2f18771b555d)  ![Community Feed](https://github.com/user-attachments/assets/3163f8b5-3820-4f28-93a2-8260f8765083)
+
+
+
+
 ## Technical Details
 - **Language**: Java
 - **Model**: Custom-trained Deep Learning model using a dataset from Kaggle of 93 Mushroom Species
